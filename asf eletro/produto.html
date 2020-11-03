@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <title>Produtos - full stack eletro</title>
+      <link rel="stylesheet" href="./css/estilo.css">
+      <script src="./script/script.js"></script>
+  </head>
+  <body>
+    <!---->
+    <nav class="menu">
+      <a href="./index.html"><img width="150px" src="./FERREIRA.png" alt="Full Stack Eletro"></a>
+      <a href="./produto.html">Produtos</a>
+      <a href="./loja.html">Nossas Lojas</a>
+      <a href="./contato.html">Contatos</a>
+    </nav>
+    <!---->
+    <header>
+        <h2>Produtos</h2>
+    </header>
+     <!---->
+     <hr>
+    <!---->
+     <main id="mainproduto">
+    <!---->
+     <div class="categorias">
+          <h3>Categorias</h3>
+           <ul>
+             <li onclick="exibir_todas()">todas (9)</li>
+             <li onclick="exibir_categoria('geladeira')">Geladeiras (5)</li>
+             <li onclick="exibir_categoria('fogao')">Fogões (7)</li>
+             <li onclick="exibir_categoria('liquidificador')">Liquidificadores (20)</li>
+             <li onclick="exibir_categoria('maquinalavar')">Maquinas De Lavar (15)</li>
+           </ul>
+          </div>     
+         <!---->
+         <div class="produtos">
+         <!---->
+         <div class="boxproduto"  id="maquinalavar" style="display: block;">
+           <img src="./maquina de lavar.webp" width="150px" onclick="destaque(this)">
+           <br>
+           <p class="descricao">Maquina de lavar 15kg</p>
+           <hr>
+           <p class="descricao"><strike>R$ 3.500,99</strike></p>
+           <p class="preco">R$ 2.499,90</p>
+          </div>
+         <!---->
+         <div class="boxproduto"  id="maquinalavar" style="display: block;">
+          <img src="./1162579-500-500.webp" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Maquina de lavar 10kg</p>
+          <hr>
+          <p class="descricao"><strike>R$ 2.489,80 </strike></p>
+          <p class="preco">R$ 1.399,90 </p>
+         </div>
+        <!---->
+        <div class="boxproduto"  id="geladeira" style="display: block;">
+          <img src="./geladeira1.jpg" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Geladeira</p>
+          <hr>
+          <p class="descricao"><strike>R$ 4.326,99 </strike></p>
+          <p class="preco">R$ 3.188,98 </p>
+        </div>
+        <!---->
+        <div class="boxproduto"  id="geladeira" style="display: block;">
+          <img src="./geladeira2.jpg" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Geladeira Frost-Free</p>
+          <hr>
+          <p class="descricao"><strike>R$ 2.789,99 </strike></p>
+          <p class="preco">R$ 1.789.93 </p>
+        </div>
+        <!---->
+        <div class="boxproduto"  id="fogao" style="display: block;">
+          <img src="./fogao1.webp" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Fogão 4 bocas</p>
+          <hr>
+          <p class="descricao"><strike>R$ 2.389,97 </strike></p>
+          <p class="preco">R$ 1.235,54 </p>
+        </div>
+        <!---->
+        <div class="boxproduto"  id="fogao" style="display: block;">
+          <img src="./fogao2.jpg" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Fogão 6 bocas</p>
+          <hr>
+          <p class="descricao"><strike>R$ 4.267,23 </strike></p>
+          <p class="preco">R$ 3.329,87 </p>
+        </div>
+        <!---->
+        <div class="boxproduto"  id="liquidificador" style="display: block;">
+          <img src="./liquidificador.webp" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Liquidificador 4 potências</p>
+          <hr>
+          <p class="descricao"><strike>R$ 567,89 </strike></p>
+          <p class="preco">R$ 350,87 </p>
+        </div>
+        <!---->
+         <div class="boxproduto"  id="liquidificador" style="display: block;">
+          <img src="./liquidificador2.jpg" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Liquidificador 3 potências</p>
+          <hr>
+          <p class="descricao"><strike>R$ 267,89 </strike></p>
+          <p class="preco">R$ 168,27 </p>
+         </div>
+        <!---->
+        <div class="boxproduto"  id="liquidificador" style="display: block;">
+          <img src="./liquidificador3.webp" width="150px" onclick="destaque(this)">
+          <br>
+          <p class="descricao">Liquidificador TopLine</p>
+          <hr>
+          <p class="descricao"><strike>R$ 532,89 </strike></p>
+          <p class="preco">R$ 410,65 </p>
+        </div>
+        <!---->
+      </div>
+     <!---->
+    </main>
+    <!---->
+     <br>
+     <br>
+     <br>
+     <!---->
+     <footer id="rodape">
+      <p id="fpaga">Formas De Pagamento :</p>
+      <img src="./pagamento.png" alt="Formas De Pagamento">
+      <p>&copy;Recode Pro</p>
+     </footer>
+    <!---->
+
+     
+  </body>
+</html>

@@ -1,0 +1,68 @@
+#nossaloja {
+    color: brown;
+    font-family: unset;
+}
+
+.menu a{
+    color: cornsilk;
+    text-decoration: none;
+    margin: 20px 100px 20px 20px;
+    padding: 50px 50px;
+    
+}
+
+.menu {
+    background-color: black;
+    
+}
+
+#fpaga {
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+#lojabd {
+    margin-left: 150px;
+}
+
+#rodape {
+    text-align: center;
+}
+
+.produtos {
+    overflow-x: auto;
+    
+         
+}
+
+.boxproduto {
+    
+    text-align: center;
+     float: left;
+     padding: 50px;
+    
+    margin: 50px 45px 50px 30px;
+    
+    overflow: auto;
+     
+
+}
+
+.descricao {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.preco {
+    text-align: center;
+    color: blue;
+    
+}
+
+#mainproduto{
+    display: flex;
+}
+
+
